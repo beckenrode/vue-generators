@@ -3,6 +3,8 @@
     "description": "Laravel Vue Generators",
     "keywords": ["laravel", "vue", "generators"],
     "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
     },
     "require-dev": {
     },
@@ -13,7 +15,6 @@
             "email": "beckenrode@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Beckenrode\\VueGenerators\\": "src/"
