@@ -59,6 +59,6 @@ class MixinMakeCommand extends GeneratorCommand
      */
     protected function getPath($name)
     {
-        return base_path().config('vue-generators.mixins_path').Str::replaceFirst($this->rootNamespace(), '', $name).'.js';
+        return base_path().config('vue-generators.mixins_path').Str::replaceFirst($this->laravel->getNamespace(), '', $name).'.js';
     }
 }

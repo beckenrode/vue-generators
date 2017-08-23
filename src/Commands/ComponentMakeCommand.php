@@ -59,6 +59,6 @@ class ComponentMakeCommand extends GeneratorCommand
      */
     protected function getPath($name)
     {
-        return base_path().config('vue-generators.components_path').Str::replaceFirst($this->rootNamespace(), '', $name).'.vue';
+        return base_path().config('vue-generators.components_path').Str::replaceFirst($this->laravel->getNamespace(), '', $name).'.vue';
     }
 }
