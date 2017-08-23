@@ -1,5 +1,7 @@
 # Laravel Vue Generators
 
+[![StyleCI](https://styleci.io/repos/101144603/shield?branch=master)](https://styleci.io/repos/101144603)
+
 This Laravel package provides two generators to speed up your Vue development process. These generators include:
 
 - `make:vue-component`
@@ -16,7 +18,7 @@ composer require beckenrode/vue-generators --dev
 ### Step 2: Add the Service Provider
 
 #### Laravel 5.5
-Laravel's [Package Discovery](https://laravel.com/docs/5.5/packages#package-discovery) automatically discovers this package.
+Laravel's <a href="https://laravel.com/docs/5.5/packages#package-discovery" target="_blank">Package Discovery</a> automatically discovers this package.
 
 #### Laravel < 5.5
 Open `config/app.php`, and add a new item to the Package Service Providers array.
