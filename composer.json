@@ -1,0 +1,30 @@
+{
+    "name": "beckenrode/vue-generators",
+    "description": "Laravel Vue Generators",
+    "keywords": ["laravel", "vue", "generators"],
+    "require": {
+    },
+    "require-dev": {
+        "laravel/laravel": "5.5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brandon Eckenrode",
+            "email": "beckenrode@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Beckenrode\\VueGenerators\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Beckenrode\\VueGenerators\\VueGeneratorsServiceProvider"
+            ]
+        }
+    }
+}

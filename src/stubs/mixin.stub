@@ -1,0 +1,45 @@
+export default {
+    // Assets
+    components: {},
+
+    // Composition
+    mixins: [],
+
+    extends: {}
+
+    // Data
+    data() {
+        return {}
+    },
+
+    props: {},
+
+    propsData: {},
+
+    computed: {},
+
+    methods: {},
+
+    watch: {},
+
+    // Lifecycle Hooks
+    beforeCreate() {},
+
+    created() {},
+
+    beforeMount() {},
+
+    mounted() {},
+
+    beforeUpdate() {},
+
+    updated() {},
+
+    activated() {},
+
+    deactivated() {},
+
+    beforeDestroy() {},
+
+    destroyed() {}
+}
