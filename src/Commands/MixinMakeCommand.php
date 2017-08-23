@@ -2,8 +2,8 @@
 
 namespace Beckenrode\VueGenerators\Commands;
 
-use Illuminate\Support\Str;
 use Illuminate\Console\GeneratorCommand;
+use Illuminate\Support\Str;
 
 class MixinMakeCommand extends GeneratorCommand
 {
@@ -41,7 +41,8 @@ class MixinMakeCommand extends GeneratorCommand
     /**
      * Build the class with the given name.
      *
-     * @param  string  $name
+     * @param string $name
+     *
      * @return string
      */
     protected function buildClass($name)
@@ -52,11 +53,12 @@ class MixinMakeCommand extends GeneratorCommand
     /**
      * Get the destination class path.
      *
-     * @param  string  $name
+     * @param string $name
+     *
      * @return string
      */
     protected function getPath($name)
     {
-        return base_path() . config('vue-generators.mixins_path') . Str::replaceFirst($this->rootNamespace(), '', $name) . '.js';
+        return base_path().config('vue-generators.mixins_path').Str::replaceFirst($this->rootNamespace(), '', $name).'.js';
     }
 }
