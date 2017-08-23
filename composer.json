@@ -3,9 +3,10 @@
     "description": "Laravel Vue Generators",
     "keywords": ["laravel", "vue", "generators"],
     "require": {
+        "laravel/laravel": "5.3.*"
     },
     "require-dev": {
-        "laravel/laravel": "5.5.*"
+        "laravel/laravel": "5.3.*"
     },
     "license": "MIT",
     "authors": [
