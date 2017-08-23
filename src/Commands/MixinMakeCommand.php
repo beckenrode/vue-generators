@@ -35,7 +35,7 @@ class MixinMakeCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        return __DIR__.'/../stubs/mixin.stub';
+        return config('vue-generators.mixin_stub', __DIR__.'/../stubs/mixin.stub');
     }
 
     /**
