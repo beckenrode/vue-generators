@@ -12,6 +12,6 @@ return [
     * Location of where to generate the files
     */
     'components_path' => '/resources/assets/js/components/',
-    'mixins_path'     => '/resources/assets/js/mixins/'
+    'mixins_path'     => '/resources/assets/js/mixins/',
 
 ];
