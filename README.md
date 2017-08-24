@@ -12,7 +12,7 @@ This Laravel package provides the following two generators to speed up your Vue 
 ### Step 1: Install Through Composer
 
 ```bash
-composer require beckenrode/vue-generators --dev
+composer require beckenrode/vue-generator
 ```
 
 ### Step 2: Add the Service Provider
