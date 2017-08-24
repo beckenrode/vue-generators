@@ -34,7 +34,7 @@ class VueGeneratorsServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the make:component generator.
+     * Register the make:vue-component generator.
      */
     private function registerComponentGenerator()
     {
@@ -45,7 +45,7 @@ class VueGeneratorsServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register the make:mixin generator.
+     * Register the make:vue-mixin generator.
      */
     private function registerMixinGenerator()
     {
