@@ -26,7 +26,7 @@ class VueGeneratorsServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__.'/Config/vue-generators.php', 'vue-generators'
+            __DIR__ . '/Config/vue-generators.php', 'vue-generators'
         );
 
         $this->registerComponentGenerator();

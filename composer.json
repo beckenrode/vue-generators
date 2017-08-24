@@ -1,7 +1,7 @@
 {
     "name": "beckenrode/vue-generators",
     "description": "Laravel Vue Generators",
-    "keywords": ["laravel", "vue", "generators"],
+    "keywords": ["laravel", "vue", "generators", "laravel-5-package", "laravel-generator", "laravel-artisan-command"],
     "require": {
     },
     "require-dev": {

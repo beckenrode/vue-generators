@@ -2,7 +2,7 @@
 
 [![StyleCI](https://styleci.io/repos/101144603/shield?branch=master)](https://styleci.io/repos/101144603)
 
-This Laravel package provides two generators to speed up your Vue development process. These generators include:
+This Laravel package provides the following two generators to speed up your Vue development process:
 
 - `make:vue-component`
 - `make:vue-mixin`
