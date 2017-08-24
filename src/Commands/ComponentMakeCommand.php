@@ -35,7 +35,7 @@ class ComponentMakeCommand extends GeneratorCommand
      */
     protected function getStub()
     {
-        return config('vue-generators.component_stub', __DIR__ . '/../stubs/component.stub');
+        return config('vue-generators.component_stub', __DIR__.'/../stubs/component.stub');
     }
 
     /**
